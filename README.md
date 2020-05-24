@@ -26,6 +26,10 @@ https://github.com/trueroad/HaranoAjiFontsTW
     + [
 https://github.com/trueroad/HaranoAjiFontsKR
 ](https://github.com/trueroad/HaranoAjiFontsKR)
+* (Experimental) Korean (K1): Adobe-Korea1
+    + [
+https://github.com/trueroad/HaranoAjiFontsK1
+](https://github.com/trueroad/HaranoAjiFontsK1)
 
 See [
 Harano Aji Fonts generator
@@ -34,6 +38,24 @@ for details.
 
 ## Release Notes
 
+* [
+20200524
+](https://github.com/trueroad/HaranoAjiFontsCN/releases/tag/20200524)
+(JP, CN, TW, KR, K1)
+    + Add proportional Kana glyphs (JP)
+    + Add some space glyphs (JP, KR)
+    + Fix broken `GPOS` table such as palt (JP, CN, TW, KR)
+    + Change width of Monospaced glyphs in **experimental** Korean font (KR)
+    + Add **experimental** Korean font variation (K1)
+        + Korean: Adobe-Korea1, suffix K1
+            + UniKS-UTF32-H 1.008
+    + Update
+        + ttx 4.10.2
+    + Number of contained glyphs (JP)
+        - HaranoAjiMincho: 16887
+          (conversion 16678 + glyph processing 208 + .notdef 1)
+        - HaranoAjiGothic: 16892
+          (conversion 16683 + glyph processing 208 + .notdef 1)
 * [
 20200516
 ](https://github.com/trueroad/HaranoAjiFontsCN/releases/tag/20200516)
